@@ -21,6 +21,8 @@ body {
 
 .stats-container {
     display: flex;
+    cursor: pointer;
+    box-shadow: 0030px lightblue;
 }
 
 .stats-card {
@@ -73,3 +75,29 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.stats-container {
+    display: flex; /* or inline-flex */
+  }
+
+.stats-container {
+align-items: center;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
